@@ -1,0 +1,34 @@
+= Agentic Layer Documentation
+
+Welcome to the Agentic Layer documentation hub. This platform provides a comprehensive suite of tools and services for building, deploying, and monitoring agentic systems at scale.
+
+== User Guide
+=== xref:tutorials.adoc[Tutorials]
+****
+Guided, step-by-step lessons. Each tutorial will walk you through building a small, complete project from scratch to give you hands-on experience.
+****
+
+=== xref:how-to-guides.adoc[How to guides]
+****
+Collection of practical recipes to solve specific, common problems. Each guide is a focused checklist of steps to accomplish a single task.
+****
+
+=== xref:reference.adoc[Reference]
+****
+Technical encyclopedia. It contains detailed, factual information about the inner workings of our system, including APIs, configuration options, and message schemas.
+****
+
+=== xref:explanation.adoc[Explanation]
+****
+High-level discussions on the "why" behind our project. Here you'll find articles on our architecture, key concepts, and design decisions.
+****
+
+'''
+
+== xref:architecture::index.adoc[Architecture Documentation]
+
+****
+This documentation describes the architecture of the Agentic Layer platform using the arc42 template structure.
+****
+
+include::architecture:ROOT:partial$architecture-contents.adoc[]

@@ -1,0 +1,10 @@
+* User Guide
+
+** xref:tutorials.adoc[Tutorials]
+** xref:how-to-guides.adoc[How to guides]
+** xref:reference.adoc[Reference]
+** xref:explanation.adoc[Explanation]
+
+* xref:architecture::index.adoc[Architecture Documentation]
+
+include::architecture:ROOT:partial$architecture-contents.adoc[]

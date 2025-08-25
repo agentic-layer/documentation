@@ -1,0 +1,9 @@
+= How to guides
+:toc:
+:toclevels: 1
+:toc-title:
+
+'''
+
+include::agent-runtime-operator:ROOT:partial$how-to-guides.adoc[]
+include::observability-dashboard:ROOT:partial$how-to-guides.adoc[]
