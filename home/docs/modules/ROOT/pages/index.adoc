@@ -30,5 +30,3 @@ High-level discussions on the "why" behind our project. Here you'll find article
 ****
 This documentation describes the architecture of the Agentic Layer platform using the arc42 template structure.
 ****
-
-include::architecture:ROOT:partial$architecture-contents.adoc[]
