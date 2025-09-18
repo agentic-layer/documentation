@@ -1,6 +1,5 @@
-////
-Setup example
 = Introduction and Goals
 
-TBD
-////o
+== System Overview
+
+image::agentic-layer.jpg[Agentic Layer Architecture Overview,align=center]
