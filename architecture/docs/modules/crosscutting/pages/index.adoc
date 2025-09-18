@@ -1,6 +1,3 @@
-////
-Setup example
 = Cross-cutting Concepts
 
 TBD
-////

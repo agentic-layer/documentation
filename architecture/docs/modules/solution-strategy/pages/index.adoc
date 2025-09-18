@@ -1,6 +1,6 @@
-////
 = Solution Strategy
 
+////
 Key Questions to Answer:
 
 == 1. Architectural Approach

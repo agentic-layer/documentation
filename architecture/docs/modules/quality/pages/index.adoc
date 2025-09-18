@@ -1,6 +1,3 @@
-////
-Setup example
 = Quality Requirements
 
 TBD
-////

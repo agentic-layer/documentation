@@ -1,6 +1,3 @@
-////
-Setup example
 = Deployment View
 
 TBD
-////

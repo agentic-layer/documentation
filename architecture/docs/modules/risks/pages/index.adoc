@@ -1,6 +1,3 @@
-////
-Setup example
 = Risks and Technical Debts
 
 TBD
-////

@@ -1,6 +1,3 @@
-////
-Setup example
 = Runtime View
 
 TBD
-////
