@@ -1,0 +1,25 @@
+site:
+  title: Agentic Layer Documentation
+  start_page: home::index.adoc
+
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    start_paths:
+    - home/docs
+    - architecture/docs
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+asciidoc:
+  extensions:
+    - asciidoctor-kroki
+  attributes:
+    kroki-fetch-diagram: true
+
+output:
+  dir: ./build

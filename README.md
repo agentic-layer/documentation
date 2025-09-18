@@ -19,44 +19,24 @@ To work with this documentation project, you'll need the following tools install
 
 * **Antora** - Documentation site generator (latest stable version)
 * **Node.js** - Required for Antora and related tooling
-* **npm** or **yarn** - Package manager for Node.js dependencies
-* **Git** - Version control system
 
 ---
 
 ## Getting Started
 
-### Installing Dependencies
-
-1. Install Node.js and npm from https://nodejs.org/
-
-2. Install Antora globally:
-   ```bash
-   npm install -g @antora/cli @antora/site-generator
-   ```
-
-3. Verify your installation:
-   ```bash
-   antora --version
-   ```
-
-### Building the Documentation
-
-To build the documentation site locally:
-
 ```bash
-antora antora-playbook.yml
+# Install dependencies
+npm install
+
+# Build the documentation site using the local playbook
+npm run build
+
+# Serve the built site locally (will be available at http://localhost:3000)
+npm run serve
+
+# Build and serve in one command
+npm run dev
 ```
-
-The generated documentation will be available in the `build/site` directory. You can serve it locally using any static file server:
-
-```bash
-npx http-server build/site
-```
-
-The documentation site will be accessible at http://localhost:8080.
-
-
 
 ## Contributing
 

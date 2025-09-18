@@ -11,16 +11,19 @@ This is an Antora documentation project for the Agentic Layer ecosystem. It cons
 
 ## Commands
 
-### Building Documentation
+### Building Documentation Locally
 ```bash
-# Install Antora globally (if not already installed)
-npm install -g @antora/cli @antora/site-generator
+# Install dependencies
+npm install
 
-# Build the documentation site
-antora antora-playbook.yml
+# Build the documentation site using the local playbook
+npm run build
 
-# Serve the built site locally (documentation will be in build/site/)
-npx http-server build/site
+# Serve the built site locally (will be available at http://localhost:3000)
+npm run serve
+
+# Build and serve in one command
+npm run dev
 ```
 
 ## Architecture Structure

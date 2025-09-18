@@ -1,0 +1,17 @@
+{
+  "name": "agentic-layer-docs",
+  "version": "1.0.0",
+  "description": "Agentic Layer Documentation",
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "serve": "npx http-server build -p 3000",
+    "dev": "npm run build && npm run serve"
+  },
+  "devDependencies": {
+    "@antora/cli": "^3.1.9",
+    "@antora/site-generator": "^3.1.9"
+  },
+  "dependencies": {
+    "asciidoctor-kroki": "^0.18.1"
+  }
+}
