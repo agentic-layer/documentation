@@ -13,6 +13,15 @@ The architecture is structured in multiple layers built on Kubernetes:
 
 image::agentic-layer.jpg[Agentic Layer Architecture Overview,align=center]
 
+=== Implementation Status
+
+In the architecture overview diagram above:
+
+* **Green boxes** represent existing, implemented components
+* **Yellow boxes** represent planned components that are not yet implemented
+
+This color coding provides visibility into the current development status and planned roadmap for the Agentic Layer platform.
+
 == Key Advantages
 
 The Agentic Layer provides several architectural advantages for enterprise AI deployments:
