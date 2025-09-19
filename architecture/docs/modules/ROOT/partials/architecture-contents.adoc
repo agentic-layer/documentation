@@ -5,7 +5,7 @@
 ** xref:architecture:building-blocks:index.adoc[Building Block View]
 // ** xref:architecture:runtime:index.adoc[Runtime View]
 // ** xref:architecture:deployment:index.adoc[Deployment View]
-// ** xref:architecture:crosscutting:index.adoc[Cross-cutting Concepts]
+** xref:architecture:crosscutting:index.adoc[Cross-cutting Concepts]
 // ** xref:architecture:decisions:index.adoc[Architecture Decisions]
 // ** xref:architecture:quality:index.adoc[Quality Requirements]
 // ** xref:architecture:risks:index.adoc[Risks and Technical Debts]
