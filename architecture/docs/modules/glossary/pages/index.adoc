@@ -10,7 +10,7 @@ Centralized registry and management system for discovering, versioning, and mana
 **Agent Gateway**::
 Entry point and routing component that handles incoming requests and distributes them to appropriate AI agents based on capabilities, availability, and load balancing policies.
 
-**Agent Runtime Agent Orchestration**::
+**Agent Runtime / Agent Orchestration**::
 Kubernetes-native execution environment that manages the lifecycle, scaling, and resource allocation of AI agents. Provides automated deployment, scaling, and monitoring of agent instances.
 
 **Agentic Layer**::

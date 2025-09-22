@@ -17,7 +17,7 @@ image::agentic-layer.jpg[Agentic Layer Architecture Overview,align=center]
 
 In the architecture overview diagram above:
 
-* **Green boxes** represent existing, implemented components
+* **Green boxes** represent existing components, implemented in an initial version
 * **Yellow boxes** represent planned components that are not yet implemented
 
 This color coding provides visibility into the current development status and planned roadmap for the Agentic Layer platform.
@@ -87,26 +87,24 @@ The architecture is built on open standards and protocols to ensure long-term in
 
 == Requirements Overview
 
-=== Functional Requirements
-
-==== Agent Management and Orchestration
-* **Agent Runtime Agent Orchestration**: Kubernetes-native execution of agents with automated scaling and resource management
+=== Agent Management and Orchestration
+* **Agent Runtime / Agent Orchestration**: Kubernetes-native execution of agents with automated scaling and resource management
 * **Agent Catalog**: Centralized discovery, versioning, and lifecycle management of agent instances
 * **Agentic Workforce Management**: Coordinate complex AI workflows across organizational boundaries
 * **Agent Gateway**: Handle routing and load distribution for concurrent agent requests
 
-==== Model and Provider Integration
+=== Model and Provider Integration
 * **AI Gateway / Model Router**: Unified interface with intelligent routing across multiple LLM providers
 * **Connectors & Tools**: Seamless integration with external systems and AI service providers
 * **Provider Agnostic Operations**: Abstract differences between AI service providers while maintaining operational consistency
 
-==== Governance and Compliance
+=== Governance and Compliance
 * **Audit Trail**: Generate complete audit trails for regulatory compliance and operational monitoring
 * **AI Guardrails**: Integrated content filtering, safety checks, and access management systems
 * **Compliance Dashboard**: Built-in monitoring for EU AI Act, GDPR, and industry-specific standards
 * **Testbench**: Agent validation, performance testing, and reliability verification capabilities
 
-==== Deployment and Operations
+=== Deployment and Operations
 * **Kubernetes-Native Deployment**: Cloud-native support for BYOC, public cloud, private cloud, and on-premise environments
 * **Observability Dashboard**: Comprehensive metrics collection, distributed tracing, and operational monitoring
 * **Dynamic Configuration**: Environment-specific configuration management with Kubernetes-native runtime updates

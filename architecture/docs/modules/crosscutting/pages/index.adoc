@@ -8,7 +8,7 @@ The Agentic Layer architecture embraces a fundamental design principle of **capa
 
 The capabilities and plugins pattern allows the system to define stable interfaces while supporting multiple implementations. Each capability represents a well-defined set of functionality that can be fulfilled by different plugins, enabling runtime or deployment-time selection of the most appropriate implementation.
 
-[plantuml, capabilities-plugins-principle, format="svg"]
+[plantuml, capabilities-plugins-principle, format="svg", link="self", window="_blank"]
 ....
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
@@ -43,7 +43,7 @@ note right of capability : Stable interface\nallows switching\nbetween implement
 
 === Application Areas
 
-==== Agent Gateway Implementations
+==== Exemplary Agent Gateway Implementations
 
 The Agent or AI Gateway capability could support multiple reverse proxy and API gateway implementations:
 
@@ -52,7 +52,7 @@ The Agent or AI Gateway capability could support multiple reverse proxy and API 
 * **Kong**: API gateway with rich plugin ecosystem
 * **Istio Gateway**: Kubernetes-native gateway with service mesh integration
 
-[plantuml, agent-gateway-plugins, format="svg"]
+[plantuml, agent-gateway-plugins, format="svg", link="self", window="_blank"]
 ....
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
