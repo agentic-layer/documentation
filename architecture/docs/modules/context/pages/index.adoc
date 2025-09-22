@@ -2,7 +2,7 @@
 
 == Business Context
 
-The Agentic Layer operates within a broader enterprise ecosystem, serving as a control plane that coordinates AI agents and manages their interactions with external systems. The system is designed to integrate into existing enterprise infrastructure rather than replace it, providing AI orchestration capabilities while maintaining organizational sovereignty over data and operations.
+The Agentic Layer operates within a broader enterprise ecosystem, serving as a control plane that coordinates AI agents and manages their interactions with external systems. The system is designed to integrate into existing enterprise infrastructure rather than to replace it, providing AI orchestration capabilities while maintaining organizational sovereignty over data and operations.
 
 === System Boundary
 
@@ -10,7 +10,7 @@ The Agentic Layer Platform Boundary defines the scope of components under direct
 
 == System Context Overview
 
-[plantuml, system-context, format="svg"]
+[plantuml, system-context, format="svg", link="self", window="_blank"]
 ....
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml

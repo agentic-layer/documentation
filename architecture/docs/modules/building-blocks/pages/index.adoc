@@ -8,11 +8,13 @@ The Agentic Layer architecture currently consists of three building blocks that 
 * **AI Gateway**: The abstraction layer for LLM provider interactions, providing unified access, security, and intelligent routing
 * **Observability Dashboard**: A simple dashboards that visualizes the interaction between agents and tools in real time
 
+Over time, more and more building blocks are going to be added.
+
 == Overall Request Flow
 
 The following diagram shows how these building blocks interact during typical request processing:
 
-[plantuml, core-request-flow, format="svg"]
+[plantuml, core-request-flow, format="svg", link="self", window="_blank"]
 ....
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
@@ -64,7 +66,7 @@ The Agent Runtime building block provides the execution environment and manageme
 * **AI Agents**: Individual agent instances that execute business logic and orchestrate AI operations
 
 === Agent Runtime Architecture
-[plantuml, agent-runtime-view, format="svg"]
+[plantuml, agent-runtime-view, format="svg", link="self", window="_blank"]
 ....
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
@@ -110,7 +112,7 @@ LAYOUT_WITH_LEGEND()
 The AI Gateway building block abstracts interactions with multiple LLM providers, providing a unified interface with built-in security, monitoring, and intelligent routing capabilities.
 
 === AI Gateway Architecture
-[plantuml, ai-gateway-view, format="svg"]
+[plantuml, ai-gateway-view, format="svg", link="self", window="_blank"]
 ....
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
