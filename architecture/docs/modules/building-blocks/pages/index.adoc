@@ -6,7 +6,7 @@ The Agentic Layer architecture currently consists of three building blocks that 
 
 * **Agent Runtime**: The execution environment for AI agents, including the Agent Gateway for request routing and the Agent Runtime Operator for lifecycle management
 * **AI Gateway**: The abstraction layer for LLM provider interactions, providing unified access, security, and intelligent routing
-* **Observability Dashboard**: A simple dashboards that visualizes the interaction between agents and tools in real time
+* **Observability Dashboard**: A simple dashboard that visualizes the interaction between agents and tools in real time
 
 Over time, more and more building blocks are going to be added.
 
