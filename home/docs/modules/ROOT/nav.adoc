@@ -1,4 +1,5 @@
 * Tutorials
+** xref:tutorials:index.adoc[]
 * How-to guides
 * Reference
 * Explanation
