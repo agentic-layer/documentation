@@ -1,6 +1,6 @@
 * Tutorials
-** xref:tutorials:index.adoc[]
+** xref:tutorials:showcase-news.adoc[]
 * How-to guides
 * Reference
 * Explanation
-** xref:architecture::index.adoc[Agentic Layer Architecture]
+** xref:architecture::index.adoc[]

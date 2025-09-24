@@ -1,4 +1,4 @@
-= Agentic Layer
+= Agentic Layer Documentation
 
 Welcome to the Agentic Layer documentation hub. This platform provides a comprehensive suite of tools and services for building, deploying, and monitoring agentic systems at scale.
 
@@ -7,9 +7,7 @@ Welcome to the Agentic Layer documentation hub. This platform provides a compreh
 Guided, step-by-step lessons. Each tutorial will walk you through building a small, complete project from scratch to give you hands-on experience.
 ****
 
-* xref:showcase-news::index.adoc[Agentic AI Showcase with News Agent]
-
-== How to guides
+== How-to guides
 ****
 Collection of practical recipes to solve specific, common problems. Each guide is a focused checklist of steps to accomplish a single task.
 ****
@@ -23,6 +21,3 @@ Technical encyclopedia. It contains detailed, factual information about the inne
 ****
 High-level discussions on the "why" behind our project. Here you'll find articles on our architecture, key concepts, and design decisions.
 ****
-
-* xref:architecture::index.adoc[Agentic Layer Architecture]
-
