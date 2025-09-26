@@ -28,7 +28,9 @@ Each guide is a focused checklist of steps to accomplish a single task.
 
 === xref:agent-runtime-operator:agent-gateways:how-to-guide.adoc[]
 
-=== xref:ai-gateway-litellm::how-to-guide.adoc[]
+=== xref:ai-gateway-litellm-operator:operator:how-to-guide.adoc[]
+
+=== xref:ai-gateway-litellm-operator:gateway:how-to-guide.adoc[]
 
 == Reference
 
@@ -41,7 +43,7 @@ It contains detailed, factual information about the inner workings of our system
 
 === xref:agent-runtime-operator:agent-gateways:reference.adoc[]
 
-=== xref:ai-gateway-litellm::reference.adoc[]
+=== xref:ai-gateway-litellm-operator:operator:reference.adoc[]
 
 == Explanation
 
