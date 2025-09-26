@@ -22,12 +22,26 @@ Collection of practical recipes to solve specific, common problems.
 Each guide is a focused checklist of steps to accomplish a single task.
 ****
 
+=== xref:agent-runtime-operator:agent-runtime:how-to-guide.adoc[]
+
+=== xref:agent-runtime-operator:agents:how-to-guide.adoc[]
+
+=== xref:agent-runtime-operator:agent-gateways:how-to-guide.adoc[]
+
+=== xref:ai-gateway-litellm:how-to-guide.adoc[]
+
 == Reference
 
 ****
 Technical encyclopedia.
 It contains detailed, factual information about the inner workings of our system, including APIs, configuration options, and message schemas.
 ****
+
+=== xref:agent-runtime-operator:agents:reference.adoc[]
+
+=== xref:agent-runtime-operator:agent-gateways:reference.adoc[]
+
+=== xref:ai-gateway-litellm:reference.adoc[]
 
 == Explanation
 
