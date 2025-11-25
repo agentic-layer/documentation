@@ -4,14 +4,15 @@
 .How-to guides
 * xref:agent-runtime-operator:agent-runtime:how-to-guide.adoc[]
 * xref:agent-runtime-operator:agents:how-to-guide.adoc[]
+
 * xref:agent-runtime-operator:agent-gateways:how-to-guide.adoc[]
-* xref:ai-gateway-operator:operator:how-to-guide.adoc[]
+* xref:agent-runtime-operator:ai-gateways:how-to-guide.adoc[]
+
+* xref:agent-gateway-krakend-operator:operator:how-to-guide.adoc[]
 * xref:ai-gateway-litellm-operator:operator:how-to-guide.adoc[]
-* xref:ai-gateway-litellm-operator:gateway:how-to-guide.adoc[]
 
 .Reference
 * xref:agent-runtime-operator:agent-runtime:reference.adoc[]
-* xref:ai-gateway-operator:operator:reference.adoc[]
 
 .Explanation
 ** xref:architecture::index.adoc[]
